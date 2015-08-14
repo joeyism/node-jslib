@@ -1,0 +1,31 @@
+{
+  "name": "jslib",
+  "version": "1.0.0",
+  "description": "A module that loads some modules that are useful in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeyism/node-jslib.git"
+  },
+  "keywords": [
+    "js",
+    "lib",
+    "javascript",
+    "library",
+    "collection"
+  ],
+  "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeyism/node-jslib/issues"
+  },
+  "homepage": "https://github.com/joeyism/node-jslib#readme",
+  "dependencies": {
+    "keyway": "^1.0.0",
+    "kontains": "^1.0.0",
+    "xcept": "^1.0.0"
+  }
+}
