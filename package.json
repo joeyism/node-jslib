@@ -15,7 +15,10 @@
     "lib",
     "javascript",
     "library",
-    "collection"
+    "collection",
+    "object",
+    "array",
+    "prototype"
   ],
   "author": "Joey Sham <sham.joey@gmail.com> (http://www.joeyism.com)",
   "license": "ISC",
