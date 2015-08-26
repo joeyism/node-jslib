@@ -11,6 +11,8 @@ A module that loads some modules that are useful in javascript, for objects and 
 * [`xcept`](#xcep)
 * [`kontains`](#kontains)
 * [`keyway`](#keyway)
+* [`isUnique`](#isUnique)
+* [`getUnique`](#getUnique)
 
 ### [xcept](https://github.com/joeyism/node-xcept)
 
@@ -55,6 +57,26 @@ Transforms an array into an object
     obj = arr.keyway()      // obj = { "one": "", "two": ""}
 
 
+### [isUnique](https://github.com/joeyism/node-isUnique)
+Returns true if the array only has unique elements. Otherwise, return false
+
+    [1].isUnique() // true
+    [1,2].isUnique() // true
+    [1,1].isUnique() // false
+
+### [getUnique](https://github.com/joeyism/node-isUnique)
+Gets the unique version of the array. If there are two matching elements, the latter is removed
+
+    [1].getUnique() // [1] 
+    [1,1].getUnique() // [1] 
+    [1,2].getUnique() // [1,2]
+    [1,2,1,2].getUnique() // [1,2]
+    [1,2,2,2].getUnique() // [1,2]
+
+
 ## Versions
+**1.1.0**
+* added isUnique and getUnique
+
 **1.0.0**
 * First working commit

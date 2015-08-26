@@ -2,3 +2,4 @@
 require("kontains");
 require("xcept");
 require("keyway");
+require("isunique");

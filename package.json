@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/joeyism/node-jslib#readme",
   "dependencies": {
+    "isunique": "^1.0.0",
     "keyway": "^1.0.0",
     "kontains": "^1.0.0",
     "xcept": "^1.0.0"
